@@ -1,0 +1,12 @@
+job_portal_chatbot/
+├── backend/
+│   ├── app.py                  ← Flask server
+│   ├── intents.json            ← chatbot training data
+│   ├── resume_parser.py        ← PDF resume extractor
+│   ├── chatbot_model.pkl       ← trained ML model
+│   ├── requirements.txt
+│   └── users.json              ← login/register data
+├── frontend/
+│   ├── index.html              ← chatbot UI
+│   ├── login.html              ← login page
+│   ├── register.html           ← register page

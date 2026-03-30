@@ -1,0 +1,38 @@
+     
+         
+     │ Chat Interface (Frontend)  │
+     │ - Web Portal Chatbox       │
+     │ - Optional Mobile Support  │
+    
+                  |
+     
+     │   NLP Engine(GPT/Dialogflow) │
+     │ - Intent Detection           │
+     │ - Entity Extraction          │
+   
+                  |
+    
+     │  Backend (Action Server)     │
+     │ - Flask / FastAPI (Python)   │
+     │ - Executes Logic             │
+     │ - Communicates with APIs     │
+
+                 |              |
+ 
+     │ Job Database│     │  Resume Parser API  │
+     │(MySQL, MongoDB)│  │  (PDF Extractor)    │
+
+  
+              |                  |       
+  
+    		             │ ML Model (TF-IDF /  │
+        | Course DB |        │ BERT for Job Match) │
+                  
+     		|
+
+       │ Admin Dashboard     │
+       │ (Monitor Logs, FAQs)│
+
+
+
+

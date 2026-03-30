@@ -1,0 +1,45 @@
+# Environment variables - NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Uploaded resumes - user data, don't commit
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Model files (large binaries - optional to commit)
+# Uncomment below if you want to exclude model files and require retraining
+# backend/model.pkl
+# backend/vectorizer.pkl
+# backend/classes.pkl
+# backend/words.pkl
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Database dumps with sensitive data
+# chatbot.sql  ← keep this (schema only, no passwords)

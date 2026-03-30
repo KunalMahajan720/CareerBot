@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Portal Chatbot</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-widget">
+    <div class="chat-header" onclick="toggleChat()">
+      <span>💬 JobBot</span>
+      <span id="toggle-icon">&#9650;</span>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+      <div class="messages" id="messages"></div>
+
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask something..." onkeydown="if(event.key==='Enter'){sendMessage()}" />
+        <button onclick="sendMessage()">➤</button>
+        <button onclick="startListening()" title="Voice Input">🎙️</button>
+      </div>
+
+      <div class="resume-upload">
+        <label for="resume-upload" class="custom-file-upload">📄 Choose File</label>
+        <input type="file" id="resume-upload" onchange="displayFileName()" />
+        <span id="file-name">No file chosen</span>
+        <button class="upload-btn" onclick="uploadResume()">Upload</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

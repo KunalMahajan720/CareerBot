@@ -1,0 +1,449 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Is anyone there?", "Good morning", "Good evening"],
+      "responses": ["Hi there! How can I assist you today?", "Hello! How may I help you with job search?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a great day.", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad to help you!"]
+    },
+    {
+      "tag": "job_search",
+      "patterns": ["I want to search for jobs", "Find me a job", "Any developer job?", "Show me job openings"],
+      "responses": ["Sure! Please tell me your preferred job title or location.", "Let's find a job for you. What role are you looking for?"]
+    },
+    {
+      "tag": "apply_job",
+      "patterns": ["How can I apply for a job?", "I want to apply", "Help me apply for a job"],
+      "responses": ["To apply, please register and upload your resume. Then click the apply button on the job listing."]
+    },
+    {
+      "tag": "upload_resume",
+      "patterns": ["How do I upload my resume?", "I want to upload my CV", "Upload resume"],
+      "responses": ["Sure! Please upload your resume using the button below ","Go ahead and upload your resume."]
+    },
+    {
+      "tag": "interview_tips",
+      "patterns": ["Give me interview tips", "How to prepare for an interview?", "Help with interviews"],
+      "responses": ["Here are some tips: Be confident, know your resume, prepare common questions, and research the company."]
+    },
+    {
+      "tag": "internships",
+      "patterns": ["Are there any internships?", "Show me internship options", "I want an internship"],
+      "responses": ["Yes! We have internships available. What domain are you interested in?"]
+    },
+    {
+      "tag": "resume_tips",
+      "patterns": ["How to write a good resume?", "Resume tips", "Help me with my CV"],
+      "responses": ["Make your resume short and clear, highlight your achievements, and tailor it to the job you're applying for."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["I need help", "Contact support", "How to reach customer support?"],
+      "responses": ["You can reach us at support@jobportal.com or use the help form on the Contact Us page."]
+    },
+    {
+      "tag": "job_alerts",
+      "patterns": ["Set up job alerts", "I want job notifications", "How to get job alerts?"],
+      "responses": ["You can set up job alerts in your profile settings. Just choose your preferences and save them."]
+    },
+    {
+      "tag": "salary_negotiation",
+      "patterns": ["How to negotiate salary?", "Salary negotiation tips", "Help with salary discussion"],
+      "responses": ["Research the market rate, know your worth, and be confident in your discussions."]
+    },
+    {
+      "tag": "company_research",
+      "patterns": ["How to research a company?", "Company research tips", "Help me with company info"],
+      "responses": ["Check their website, read reviews, and look at their social media presence."]
+    },
+    {
+      "tag": "job_market_trends",
+      "patterns": ["What are the job market trends?", "Current job market", "Job market analysis"],
+      "responses": ["The job market is evolving with more remote opportunities and a focus on tech skills."]
+    },
+    {
+      "tag": "networking",
+      "patterns": ["How to network effectively?", "Networking tips", "Help me with networking"],
+      "responses": ["Attend industry events, connect on LinkedIn, and reach out to professionals in your field."]
+    },
+    {
+      "tag": "skills_development",
+      "patterns": ["How to improve my skills?", "Skills development tips", "Help me with learning"],
+      "responses": ["Consider online courses, workshops, and certifications relevant to your field."]
+    },
+    {
+      "tag": "job_fairs",
+      "patterns": ["Are there any job fairs?", "Job fair information", "Tell me about job fairs"],
+      "responses": ["Yes! We have upcoming job fairs. Check our events page for details."]
+    },
+    {
+      "tag": "freelancing",
+      "patterns": ["How to start freelancing?", "Freelancing tips", "Help me with freelancing"],
+      "responses": ["Create a portfolio, set your rates, and start networking to find clients."]
+    },
+    {
+      "tag": "work_life_balance",
+      "patterns": ["How to maintain work-life balance?", "Work-life balance tips", "Help me with balance"],
+      "responses": ["Set boundaries, prioritize tasks, and make time for yourself outside of work."]
+    },
+    {
+      "tag": "career_growth",
+      "patterns": ["How to grow in my career?", "Career growth tips", "Help me with career advancement"],
+      "responses": ["Seek mentorship, take on new challenges, and continuously learn new skills."]
+    },
+    {
+      "tag": "job_search_engines",
+      "patterns": ["What are job search engines?", "Job search websites", "Help me with job search tools"],
+      "responses": ["Popular job search engines include Indeed, LinkedIn, and Glassdoor."]
+    },
+    {
+      "tag": "resume_formats",
+      "patterns": ["What are the best resume formats?", "Resume format tips", "Help me with resume layout"],
+      "responses": ["Use a clean, professional format. Common formats include chronological, functional, and combination."]
+    },
+    {
+      "tag": "soft_skills",
+      "patterns": ["What are soft skills?", "Importance of soft skills", "Help me with soft skills"],
+      "responses": ["Soft skills include communication, teamwork, and problem-solving. They're essential for workplace success."]
+    },
+    {
+      "tag": "hard_skills",
+      "patterns": ["What are hard skills?", "Importance of hard skills", "Help me with hard skills"],
+      "responses": ["Hard skills are specific, teachable abilities like coding, data analysis, and graphic design."]
+    },
+    {
+      "tag": "job_description",
+      "patterns": ["How to read a job description?", "Understanding job descriptions", "Help me with job listings"],
+      "responses": ["Focus on required skills, responsibilities, and qualifications to determine if it's a good fit for you."]
+    },
+    {
+      "tag": "job_offer",
+      "patterns": ["What to do after getting a job offer?", "Job offer tips", "Help me with job acceptance"],
+      "responses": ["Review the offer carefully, negotiate if necessary, and respond promptly."]
+    },
+    {
+      "tag": "workplace_culture",
+      "patterns": ["What is workplace culture?", "Understanding workplace culture", "Help me with company culture"],
+      "responses": ["Workplace culture refers to the environment and values of a company. Research it before applying."]
+    },
+    {
+      "tag": "remote_work",
+      "patterns": ["How to work remotely?", "Remote work tips", "Help me with remote jobs"],
+      "responses": ["Set up a dedicated workspace, maintain communication with your team, and manage your time effectively."]
+    },
+    {
+      "tag": "job_satisfaction",
+      "patterns": ["How to find job satisfaction?", "Job satisfaction tips", "Help me with job happiness"],
+      "responses": ["Identify what you enjoy in a job, seek opportunities for growth, and maintain a work-life balance."]
+    },
+    {
+      "tag": "job_hunting",
+      "patterns": ["How to hunt for jobs?", "Job hunting tips", "Help me with job search"],
+      "responses": ["Use multiple job boards, network, and tailor your resume for each application."]
+    },
+    {
+      "tag": "job_skills",
+      "patterns": ["What skills are in demand?", "In-demand job skills", "Help me with job skills"],
+      "responses": ["Skills like coding, data analysis, and digital marketing are currently in high demand."]
+    },
+    {
+      "tag": "job_market_analysis",
+      "patterns": ["Analyze the job market", "Job market analysis", "Help me with job trends"],
+      "responses": ["The job market is competitive. Focus on building relevant skills and networking."]
+    },
+    {
+      "tag": "job_search_strategy",
+      "patterns": ["What is a good job search strategy?", "Job search strategy tips", "Help me with job search plan"],
+      "responses": ["Create a targeted resume, network effectively, and apply consistently."]
+    },
+    {
+      "tag": "job_interview_questions",
+      "patterns": ["Common interview questions", "Job interview questions", "Help me with interview prep"],
+      "responses": ["Prepare for questions like 'Tell me about yourself' and 'Why do you want to work here?'."]
+    },
+    {
+      "tag": "job_negotiation",
+      "patterns": ["How to negotiate a job offer?", "Job negotiation tips", "Help me with salary negotiation"],
+      "responses": ["Research salary ranges, know your worth, and be prepared to discuss your value."]
+    },
+    {
+      "tag": "career_advice",
+      "patterns": ["Career advice needed", "Help me with my career", "Career guidance"],
+      "responses": ["Consider your interests, seek mentorship, and continuously learn new skills."]
+    },
+    {
+      "tag": "interview_tips",
+      "patterns": [
+        "Give me interview tips",
+        "How to prepare for an interview?",
+        "Help with interviews"
+      ],
+      "responses": [
+        "Here are some tips: Be confident, know your resume, prepare common questions, and research the company."
+      ]
+    },
+    {
+      "tag": "job_role_skills",
+      "patterns": [
+        "What skills are required for a Data Scientist?",
+        "What should I know to be a good Data Scientist?",
+        "What are the key skills for Data Science?"
+      ],
+      "responses": [
+        "A Data Scientist should have skills in Python, machine learning, statistical analysis, data wrangling, and data visualization."
+      ]
+    },
+    {
+      "tag": "course_recommendations",
+      "patterns": [
+        "What are the best courses for Machine Learning?",
+        "Suggest some courses for Data Science",
+        "Where can I learn Machine Learning?"
+      ],
+      "responses": [
+        "Some popular courses for Machine Learning are 'Machine Learning by Andrew Ng' on Coursera, 'Deep Learning Specialization' on Coursera, and 'Intro to Machine Learning with Python' by Udacity."
+      ]
+    },
+    {
+      "tag": "job_search_tips",
+      "patterns": [
+        "How can I improve my job search?",
+        "Give me tips for job hunting",
+        "How to get better at job searching?"
+      ],
+      "responses": [
+        "Start by updating your resume, networking on LinkedIn, attending job fairs, and practicing interview questions."
+      ]
+    },
+    {
+      "tag": "resume_building",
+      "patterns": [
+        "How to build a strong resume?",
+        "What should I include in my resume?",
+        "Resume building tips"
+      ],
+      "responses": [
+        "Include your contact information, a summary, work experience, education, and relevant skills. Tailor it for each job application."
+      ]
+    },
+    {
+      "tag": "job_market_research",
+      "patterns": [
+        "How to research the job market?",
+        "Job market analysis tips",
+        "Help me with job market research"
+      ],
+      "responses": [
+        "Use online resources like LinkedIn, Glassdoor, and industry reports to understand trends and demands in your field."
+      ]
+    },
+    {
+      "tag": "job_application_process",
+      "patterns": [
+        "What is the job application process?",
+        "How to apply for jobs?",
+        "Job application steps"
+      ],
+      "responses": [
+        "The process typically involves searching for jobs, submitting applications, attending interviews, and receiving offers."
+      ]
+    },
+    {
+      "tag": "job_search_engines",
+      "patterns": [
+        "What are the best job search engines?",
+        "Where can I find job listings?",
+        "Job search websites"
+      ],
+      "responses": [
+        "'Indeed', 'LinkedIn', 'Monster', and 'Glassdoor' are popular job search engines."
+      ]
+    },
+    {
+      "tag": "job_interview_preparation",
+      "patterns": [
+        "How to prepare for a job interview?",
+        "Interview preparation tips",
+        "Help me get ready for an interview"
+      ],
+      "responses": [
+        "Research the company, practice common interview questions, dress appropriately, and prepare questions to ask the interviewer."
+      ]
+    },
+    {
+      "tag": "job_offer_acceptance",
+      "patterns": [
+        "How to accept a job offer?",
+        "Job offer acceptance tips",
+        "What to do after getting a job offer?"
+      ],
+      "responses": [
+        "'Thank the employer', 'Review the offer', 'Negotiate if necessary', and 'Respond promptly'."
+      ]
+    },
+    {
+      "tag": "job_offer_rejection",
+      "patterns": [
+        "How to reject a job offer?",
+        "Job offer rejection tips",
+        "What to do if I don't want the job offer?"
+      ],
+      "responses": [
+        "'Thank the employer', 'Express appreciation', and 'Politely decline the offer'."
+      ]
+    },
+    {
+      "tag": "job_search_resources",
+      "patterns": [
+        "What resources can help with job search?",
+        "Job search tools and resources",
+        "Help me with job search resources"
+      ],
+      "responses": [
+        "'LinkedIn', 'Glassdoor', 'Indeed', and 'CareerBuilder' are great resources for job searching."
+      ]
+    },
+    {
+      "tag": "job_search_challenges",
+      "patterns": [
+        "What are common job search challenges?",
+        "Help me with job search problems",
+        "Job search difficulties"
+      ],
+      "responses": [
+        "'Competition', 'Lack of experience', 'Networking challenges', and 'Finding the right fit'."
+      ]
+    },
+    {
+      "tag": "job_search_success",
+      "patterns": [
+        "How to succeed in job search?",
+        "Tips for successful job hunting",
+        "Help me with job search success"
+      ],
+      "responses": [
+        "'Be persistent', 'Network effectively', 'Tailor your applications', and 'Stay positive'."
+      ]
+    },
+    {
+      "tag": "job_search_follow_up",
+      "patterns": [
+        "How to follow up after a job application?",
+        "Job application follow-up tips",
+        "Help me with job application follow-up"
+      ],
+      "responses": [
+        "'Wait a week', 'Send a polite email', and 'Express continued interest'."
+      ]
+    },
+    {
+      "tag": "job_search_statistics",
+      "patterns": [
+        "What are the latest job search statistics?",
+        "Job search trends and statistics",
+        "Help me with job search data"
+      ],
+      "responses": [
+        "'The average job seeker spends 11 hours a week searching for jobs', 'Networking is the most effective way to find a job'."
+      ]
+    },
+    {
+      "tag": "job_search_mistakes",
+      "patterns": [
+        "What are common job search mistakes?",
+        "Job search pitfalls",
+        "Help me avoid job search errors"
+      ],
+      "responses": [
+        "'Not tailoring your resume', 'Applying to too many jobs', 'Ignoring networking', and 'Not following up'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_graduates",
+      "patterns": [
+        "Job search tips for recent graduates",
+        "How to find a job after graduation?",
+        "Help me with job search as a graduate"
+      ],
+      "responses": [
+        "'Network with alumni', 'Internships', 'Tailor your resume', and 'Use job boards'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_experienced",
+      "patterns": [
+        "Job search tips for experienced professionals",
+        "How to find a job with experience?",
+        "Help me with job search as an experienced professional"
+      ],
+      "responses": [
+        "'Leverage your network', 'Highlight your achievements', 'Use LinkedIn', and 'Consider recruiters'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_tech_industry",
+      "patterns": [
+        "Job search tips for tech industry",
+        "How to find a tech job?",
+        "Help me with job search in technology"
+      ],
+      "responses": [
+        "'Build a strong portfolio', 'Network in tech communities', 'Attend tech meetups', and 'Stay updated with trends'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_non_tech_industry",
+      "patterns": [
+        "Job search tips for non-tech industry",
+        "How to find a job outside tech?",
+        "Help me with job search in non-tech fields"
+      ],
+      "responses": [
+        "'Network in your industry', 'Attend industry events', 'Use niche job boards', and 'Tailor your resume'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_remote_jobs",
+      "patterns": [
+        "Job search tips for remote jobs",
+        "How to find a remote job?",
+        "Help me with remote job search"
+      ],
+      "responses": [
+        "'Use remote job boards', 'Network with remote workers', 'Tailor your resume for remote roles', and 'Be flexible'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_freelancers",
+      "patterns": [
+        "Job search tips for freelancers",
+        "How to find freelance work?",
+        "Help me with freelancing job search"
+      ],
+      "responses": [
+        "'Build a strong portfolio', 'Use freelance platforms', 'Network with other freelancers', and 'Market your skills'."
+      ]
+    },
+    {
+      "tag": "job_search_tips_for_internships",
+      "patterns": [
+        "Job search tips for internships",
+        "How to find an internship?",
+        "Help me with internship search"
+      ],
+      "responses": [
+        "'Network with professors', 'Use internship boards', 'Attend career fairs', and 'Tailor your resume'."
+      ]
+    }
+
+  ]
+}
