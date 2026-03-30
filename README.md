@@ -1,4 +1,4 @@
-# 🤖 CareerBot — Hybrid NLP Career Guidance Chatbot
+# CareerBot — Hybrid NLP Career Guidance Chatbot
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-2.3.2-black?style=flat-square&logo=flask)
