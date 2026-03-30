@@ -10,15 +10,6 @@
 
 > A production-ready, hybrid AI chatbot that combines a **Multinomial Naive Bayes classifier** for fast intent recognition with a **Large Language Model (LLaMA 3 / Gemini)** fallback for complex queries — built for career guidance, job search assistance, and resume analysis.
 
----
-
-## 📸 Demo
-
-![CareerBot Demo](assets/demo.png)
-
-> *CareerBot in action — handling job search, resume upload, and career Q&A*
-
----
 
 ## ✨ Features
 
@@ -99,7 +90,7 @@ CareerBot/
 ### Prerequisites
 - Python 3.11+
 - MySQL 8.0+
-- OpenRouter API Key → [Get one free here](https://openrouter.ai/keys)
+- OpenRouter API Key → [Get one free here](https://openrouter.ai/)
 
 ### 1. Clone the repository
 ```bash
@@ -237,8 +228,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Kunal Mahajan**  
-📧 kunalmahajan2499@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/YOUR_PROFILE) · [GitHub](https://github.com/YOUR_USERNAME)
+📧 kunalmahajan720@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/kunalmahajank2499m/) · [GitHub](https://github.com/KunalMahajan720)
 
 ---
 
